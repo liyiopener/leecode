@@ -4,6 +4,9 @@ import com.zoo.algorithm_exercise.util.Sout;
 
 import java.util.Objects;
 
+/**
+ * 编写一个函数来查找字符串数组中的最长公共前缀。如果不存在公共前缀，则返回""
+ */
 public class Solution_14 {
 
     public static void main(String[] args) {
@@ -18,6 +21,11 @@ public class Solution_14 {
 
     }
 
+    /**
+     * 注意：求公共前缀的意义
+     * @param strArr
+     * @return
+     */
     public static String solution(String[] strArr) {
         String preFix = "";
         if (Objects.isNull(strArr) || strArr.length == 0) {
