@@ -33,11 +33,13 @@ public class Solution_1 {
         }
         return result;
     }
-}
-/**
- * old history
- */
-class Solution {
+
+    /**
+     * old record
+     * @param nums
+     * @param target
+     * @return
+     */
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         for(int i = 0; i<nums.length;i++){
